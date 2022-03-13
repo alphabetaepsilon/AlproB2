@@ -1,0 +1,31 @@
+/*Nama File 	: CekBSeriPositif.c*/
+/*Deskripsi 	: Menentukan apakah bilangan adalah negatif atau tidak*/
+/*Pembuat   	: R Alifi Irham Harvianto - 24060121130052*/
+/*Tgl Pembuatan	: Senin, 07 03 2022 19.07 WIB*/
+#include<stdio.h>
+
+int main()
+{
+    //Kamus
+    float a, b, c;
+    float total;
+    //Algoritma
+    printf("Mengecek nilai kebenaran apakah negatif atau tidak\n");
+    printf("Masukkan angka tahanan pertama:");
+    scanf("%f", &a);
+    printf("Masukkan angka tahanan kedua:");
+    scanf("%f", &b);
+    printf("Masukkan angka tahanan ketiga:");
+    scanf("%f", &c);
+    total = a + b + c;
+    if (a>=0, b>=0, c>=0)
+    {
+        printf("Total tahanan adalah %.2f", total);
+    }
+    else
+    {
+        printf("Masukkan tahan tidak boleh negatif");
+    }
+
+    return 0;
+}
