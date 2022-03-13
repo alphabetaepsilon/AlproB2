@@ -1,0 +1,49 @@
+/*Nama File 	: CekHari.c*/
+/*Deskripsi 	: Menentukan nama hari pada bilangan*/
+/*Pembuat   	: R Alifi Irham Harvianto - 24060121130052*/
+/*Tgl Pembuatan	: Senin, 07 03 2022 18.48 WIB*/
+#include<stdio.h>
+
+int main()
+{
+    //Kamus
+    int H;
+    //Algoritma
+    printf("Pengecekan Hari\n");
+    printf("Masukkan Angka Hari:");
+    scanf("%d", &H);
+
+    if (H == 1)
+    {
+        printf("Hari tersebut adalah Hari Senin", H);
+    }
+    else if (H == 2)
+    {
+        printf("Hari tersebut adalah Hari Selasa", H);
+    }
+    else if (H == 3)
+    {
+        printf("Hari tersebut adalah Hari Rabu", H);
+    }
+    else if (H == 4)
+    {
+        printf("Hari tersebut adalah Hari Kamis", H);
+    }
+    else if (H == 5)
+    {
+        printf("Hari tersebut adalah Hari Jumat", H);
+    }
+    else if (H == 6)
+    {
+        printf("Hari tersebut adalah Hari Sabtu", H);
+    }
+    else if (H == 7)
+    {
+        printf("Hari tersebut adalah Hari Minggu", H);
+    }
+    else
+    {
+        printf("Masukkan Nomor Hari Tidak Tepat",H);
+    }
+    return 0;
+}
