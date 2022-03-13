@@ -1,0 +1,65 @@
+/*Nama File 	: CekBulan.c*/
+/*Deskripsi 	: Menentukan nama bulan pada bilangan*/
+/*Pembuat   	: R Alifi Irham Harvianto - 24060121130052*/
+/*Tgl Pembuatan	: Senin, 07 03 2022 18.53 WIB*/
+#include<stdio.h>
+
+int main()
+{
+    //Kamus
+    int B;
+    //Algoritma
+    printf("Pengecekan Bulan\n");
+    printf("Masukkan Angka Bulan:");
+    scanf("%d", &B);
+
+    if (B == 1)
+    {
+        printf("Bulan tersebut adalah Bulan Januari", B);
+    }
+    else if (B == 2)
+    {
+        printf("Bulan tersebut adalah Bulan Februari", B);
+    }
+    else if (B == 3)
+    {
+        printf("Bulan tersebut adalah Bulan Maret", B);
+    }
+    else if (B == 4)
+    {
+        printf("Bulan tersebut adalah Bulan April", B);
+    }
+    else if (B == 5)
+    {
+        printf("Bulan tersebut adalah Bulan Mei", B);
+    }
+    else if (B == 7)
+    {
+        printf("Bulan tersebut adalah Bulan Juli", B);
+    }
+    else if (B == 8)
+    {
+        printf("Bulan tersebut adalah Bulan Agustus", B);
+    }
+    else if (B == 9)
+    {
+        printf("Bulan tersebut adalah Bulan September", B);
+    }
+    else if (B == 10)
+    {
+        printf("Bulan tersebut adalah Bulan Oktober", B);
+    }
+    else if (B == 11)
+    {
+        printf("Bulan tersebut adalah Bulan November", B);
+    }
+    else if (B == 12)
+    {
+        printf("Bulan tersebut adalah Bulan Desember", B);
+    }
+    else
+    {
+        printf("Masukkan Nomor Bulan Tidak Tepat",B);
+    }
+    return 0;
+}
