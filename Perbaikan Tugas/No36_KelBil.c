@@ -1,4 +1,4 @@
-/*Nama File 	: KelBil.c*/
+/*Nama File 	: No36_KelBil.c*/
 /*Deskripsi 	: Menentukan dan menampilkan kpk dari sebuah array integer*/
 /*Pembuat   	: R Alifi Irham Harvianto - 24060121130052*/
 /*Tgl Pembuatan	: Jumat, 20 05 2022 */
