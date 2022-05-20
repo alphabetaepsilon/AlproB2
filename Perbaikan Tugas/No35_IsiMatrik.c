@@ -1,4 +1,4 @@
-/*Nama File 	: IsiMatrik.c*/
+/*Nama File 	: No35_IsiMatrik.c*/
 /*Deskripsi 	: Menentukan dan menampilkan matriks dengan diagonal utama bernilai 1, atas diagonal bernilai 0, bawah diagonal bernilai 2*/
 /*Pembuat   	: R Alifi Irham Harvianto - 24060121130052*/
 /*Tgl Pembuatan	: Jumat, 20 05 2022 */
